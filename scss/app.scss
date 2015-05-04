@@ -21,6 +21,11 @@
 // }
 
 
+
+  .site-cont {
+   background-color: white;
+  }
+
 @media all and (max-width: 960px){
     body{background-color: #FBFF8E;}
 }
@@ -38,6 +43,7 @@
   .site-cont {
     width: auto;
     padding-left: 180px;
-    padding-right: 320px;
+    margin-right: 320px;
+    min-width: calc(780px + 180px);
   }
 }
