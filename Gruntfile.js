@@ -4,6 +4,15 @@
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
+        connect: {
+            server: {
+                options: {
+                    port: 9001,
+                    index: 'index.html'
+                }
+            }
+        },
+
         sass: {
             options: {
                 loadPath: ['bower_components/foundation/scss']
@@ -24,12 +33,12 @@
         },
 
         watch: {
-            grunt: { 
-                files: ["Gruntfile.js"], 
+            grunt: {
+                files: ["Gruntfile.js"],
                 tasks: ["default"],
                 options: {
                   livereload: true
-                } 
+                }
             },
 
             sass: {
@@ -39,7 +48,7 @@
                   livereload: true
                 }
             },
-            
+
             script: {
                 files: 'develop/js/**/*.js',
                 tasks: ['buildJs'],
@@ -97,6 +106,7 @@
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-connect');
 
 
     // -----------------------------------------
@@ -105,5 +115,5 @@
 
     grunt.registerTask('buildCss', ['sass']);
     grunt.registerTask('buildJs', ['concat', 'uglify']);
-    grunt.registerTask('default', ['buildCss', 'buildJs', 'watch']);
+    grunt.registerTask('default', ['buildCss', 'buildJs', 'connect', 'watch']);
 };

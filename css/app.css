@@ -6689,20 +6689,20 @@ body {
   background-color: white;
   position: relative; }
 
-.site-cont:after {
-  background-color: red;
-  position: absolute;
-  content: "";
-  top: 20px;
-  right: -203px;
-  width: 205px;
-  height: 680px;
-  background-image: url("../images/icons/pattern.png"); }
-
-@media all and (max-width: 960px) {
+@madia screen {
+  .site-cont:after {
+    background-color: red;
+    position: absolute;
+    content: "";
+    top: 20px;
+    right: -203px;
+    width: 205px;
+    height: 680px;
+    background-image: url("../images/icons/pattern.png"); } }
+@media screen and (max-width: 960px) {
   body {
     background-color: #FBFF8E; } }
-@media all and (min-width: 961px) and (max-width: 1280px) {
+@media screen and (min-width: 961px) and (max-width: 1280px) {
   body {
     background-color: #D64445; }
 
@@ -6710,7 +6710,7 @@ body {
     padding-left: 180px;
     padding-right: 80px;
     width: calc(780px + 180px); } }
-@media all and (min-width: 1281px) and (max-width: 1980px) {
+@media screen and (min-width: 1281px) and (max-width: 1980px) {
   body {
     background-color: #D64445; }
 
