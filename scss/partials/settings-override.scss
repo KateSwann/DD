@@ -92,8 +92,8 @@ $row-width: rem-calc(9999);
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-// $font-weight-normal: normal;
-// $font-weight-bold: bold;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
 
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
@@ -1401,7 +1401,7 @@ $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
 
 // Background color for the top bar
 // $topbar-bg-color: $oil;
-// $topbar-bg: $topbar-bg-color;
+$topbar-bg: none;
 
 // Height and margin
 // $topbar-height: rem-calc(45);
@@ -1412,15 +1412,15 @@ $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
 // $topbar-title-font-size: rem-calc(17);
 
 // Set the link colors and styles for top-level nav
-// $topbar-link-color: $white;
-// $topbar-link-color-hover: $white;
+$topbar-link-color: #B7B7B7;
+$topbar-link-color-hover: #FFF;
 // $topbar-link-color-active: $white;
 // $topbar-link-color-active-hover: $white;
-// $topbar-link-weight: $font-weight-normal;
+$topbar-link-weight: $font-weight-bold;
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
-// $topbar-link-bg-hover: $jet;
+$topbar-link-bg-hover: #00BF00;
 // $topbar-link-bg-color-hover: $charcoal;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
@@ -1433,7 +1433,7 @@ $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
 // $topbar-button-top: 7px;
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: $oil;
+$topbar-dropdown-bg: #FFF;
 // $topbar-dropdown-link-color: $white;
 // $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
 // $topbar-dropdown-link-bg: $oil;
@@ -1454,7 +1454,7 @@ $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
 // $topbar-menu-link-color: $white;
-// $topbar-menu-icon-color: $white;
+$topbar-menu-icon-color: #141414;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;
 // $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
