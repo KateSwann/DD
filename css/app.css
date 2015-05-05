@@ -6682,25 +6682,41 @@ th.hide-for-touch {
   background-color: #FFF;
   padding: 30px; }
 
+body {
+  overflow-x: hidden; }
+
 .site-cont {
-  background-color: white; }
+  background-color: white;
+  position: relative; }
+
+.site-cont:after {
+  background-color: red;
+  position: absolute;
+  content: "";
+  top: 20px;
+  right: -203px;
+  width: 205px;
+  height: 680px;
+  background-image: url("../images/icons/pattern.png"); }
 
 @media all and (max-width: 960px) {
   body {
     background-color: #FBFF8E; } }
 @media all and (min-width: 961px) and (max-width: 1280px) {
   body {
-    background-color: #FFB872; }
+    background-color: #D64445; }
 
   .site-cont {
     padding-left: 180px;
+    padding-right: 80px;
     width: calc(780px + 180px); } }
 @media all and (min-width: 1281px) and (max-width: 1980px) {
   body {
-    background-color: #FF7272; }
+    background-color: #D64445; }
 
   .site-cont {
     width: auto;
     padding-left: 180px;
+    padding-right: 80px;
     margin-right: 320px;
     min-width: calc(780px + 180px); } }
