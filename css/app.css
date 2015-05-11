@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900&subset=latin,cyrillic);
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -413,10 +414,10 @@ body {
   font-size: 100%; }
 
 body {
-  background: #fff;
-  color: #222;
+  background: #d64445;
+  color: #000000;
   cursor: auto;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -1518,7 +1519,7 @@ select {
       background: #EFEFEF;
       color: #222222;
       display: block;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -1569,9 +1570,9 @@ select {
     border-color: #de2d0f;
     color: #FFFFFF; }
   .alert-box.secondary {
-    background-color: #e7e7e7;
-    border-color: #c7c7c7;
-    color: #4f4f4f; }
+    background-color: #B7B7B7;
+    border-color: #9d9d9d;
+    color: #3e3e3e; }
   .alert-box.warning {
     background-color: #f08a24;
     border-color: #de770f;
@@ -1579,14 +1580,14 @@ select {
   .alert-box.info {
     background-color: #a0d3e8;
     border-color: #74bfdd;
-    color: #4f4f4f; }
+    color: #3e3e3e; }
   .alert-box.alert-close {
     opacity: 0; }
 
 [class*="block-grid-"] {
   display: block;
   padding: 0;
-  margin: 0 -0.625rem; }
+  margin: 0 -0.9375rem; }
   [class*="block-grid-"]:before, [class*="block-grid-"]:after {
     content: " ";
     display: table; }
@@ -1596,7 +1597,7 @@ select {
     display: block;
     float: left;
     height: auto;
-    padding: 0 0.625rem 1.25rem; }
+    padding: 0 0.9375rem 1.875rem; }
 
 @media only screen {
   .small-block-grid-1 > li {
@@ -1894,8 +1895,8 @@ select {
   margin-left: 0;
   overflow: hidden;
   padding: 0.5625rem 0.875rem 0.5625rem;
-  background-color: #f4f4f4;
-  border-color: gainsboro;
+  background-color: #dfdfdf;
+  border-color: #c8c8c8;
   border-radius: 3px; }
   .breadcrumbs > * {
     color: #008CBA;
@@ -1946,7 +1947,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1965,13 +1966,13 @@ button, .button {
   button:hover, button:focus, .button:hover, .button:focus {
     color: #FFFFFF; }
   button.secondary, .button.secondary {
-    background-color: #e7e7e7;
-    border-color: #b9b9b9;
+    background-color: #B7B7B7;
+    border-color: #929292;
     color: #333333; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      background-color: #b9b9b9; }
+      background-color: #929292; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      color: #333333; }
+      color: #FFFFFF; }
   button.success, .button.success {
     background-color: #43AC6A;
     border-color: #368a55;
@@ -2041,18 +2042,18 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       background-color: #008CBA; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-      background-color: #e7e7e7;
-      border-color: #b9b9b9;
+      background-color: #B7B7B7;
+      border-color: #929292;
       color: #333333;
       box-shadow: none;
       cursor: default;
       opacity: 0.7; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #b9b9b9; }
+        background-color: #929292; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        color: #333333; }
+        color: #FFFFFF; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #e7e7e7; }
+        background-color: #B7B7B7; }
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
       background-color: #43AC6A;
       border-color: #368a55;
@@ -3763,7 +3764,7 @@ kbd {
 
 .label {
   display: inline-block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -3789,7 +3790,7 @@ kbd {
     background-color: #43AC6A;
     color: #FFFFFF; }
   .label.secondary {
-    background-color: #e7e7e7;
+    background-color: #B7B7B7;
     color: #333333; }
   .label.info {
     background-color: #a0d3e8;
@@ -4144,7 +4145,7 @@ ul.pagination {
   .pricing-table .title {
     background-color: #333333;
     color: #EEEEEE;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 1rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -4152,7 +4153,7 @@ ul.pagination {
   .pricing-table .price {
     background-color: #F6F6F6;
     color: #333333;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 2rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -4191,7 +4192,7 @@ ul.pagination {
     display: block;
     height: 100%; }
   .progress.secondary .meter {
-    background: #e7e7e7;
+    background: #B7B7B7;
     display: block;
     height: 100%; }
   .progress.success .meter {
@@ -4270,7 +4271,7 @@ ul.pagination {
         background: #007ba4; }
 
 .range-slider-active-segment {
-  background: #e5e5e5;
+  background: #b5b5b5;
   border-bottom-left-radius: inherit;
   border-top-left-radius: inherit;
   display: inline-block;
@@ -4406,7 +4407,7 @@ ul.pagination {
 
 .side-nav {
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -4427,7 +4428,7 @@ ul.pagination {
         color: #1cc7ff; }
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-weight: normal; }
     .side-nav li.divider {
       border-top: 1px solid;
@@ -4547,7 +4548,7 @@ ul.pagination {
   .sub-nav li {
     color: #999999;
     float: left;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 0.875rem;
     font-weight: normal;
     margin-left: 1rem;
@@ -4740,7 +4741,7 @@ table {
       display: block;
       background-color: #EFEFEF;
       color: #222222;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem 2rem; }
       .tabs dd > a:hover,
@@ -5047,11 +5048,11 @@ meta.foundation-mq-topbar {
     height: 1px;
     width: 100%; }
   .top-bar-section ul li {
-    background: #FFF; }
+    background: #FFFFFF; }
     .top-bar-section ul li > a {
       color: #B7B7B7;
       display: block;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: bold;
       padding-left: 0.9375rem;
@@ -5070,13 +5071,13 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           color: #FFFFFF; }
       .top-bar-section ul li > a.button.secondary {
-        background-color: #e7e7e7;
-        border-color: #b9b9b9;
+        background-color: #B7B7B7;
+        border-color: #929292;
         color: #333333; }
         .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-          background-color: #b9b9b9; }
+          background-color: #929292; }
         .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-          color: #333333; }
+          color: #FFFFFF; }
       .top-bar-section ul li > a.button.success {
         background-color: #43AC6A;
         border-color: #368a55;
@@ -5121,13 +5122,13 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         color: #FFFFFF; }
       .top-bar-section ul li > button.secondary {
-        background-color: #e7e7e7;
-        border-color: #b9b9b9;
+        background-color: #B7B7B7;
+        border-color: #929292;
         color: #333333; }
         .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-          background-color: #b9b9b9; }
+          background-color: #929292; }
         .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-          color: #333333; }
+          color: #FFFFFF; }
       .top-bar-section ul li > button.success {
         background-color: #43AC6A;
         border-color: #368a55;
@@ -5162,10 +5163,10 @@ meta.foundation-mq-topbar {
           color: #FFFFFF; }
     .top-bar-section ul li:hover:not(.has-form) > a {
       background-color: #555555;
-      color: #FFF;
+      color: #FFFFFF;
       background: #00BF00; }
     .top-bar-section ul li.active > a {
-      background: #008CBA;
+      background: #00BF00;
       color: #FFFFFF; }
       .top-bar-section ul li.active > a:hover {
         background: #0078a0;
@@ -5295,7 +5296,7 @@ meta.foundation-mq-topbar {
     .top-bar-section li.hover > a:not(.button) {
       background-color: #555555;
       background: #00BF00;
-      color: #FFF; }
+      color: #FFFFFF; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       background: none;
       line-height: 2.8125rem;
@@ -5304,7 +5305,7 @@ meta.foundation-mq-topbar {
         background-color: #555555;
         background: #00BF00; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
-      background: #008CBA;
+      background: #00BF00;
       color: #FFFFFF;
       line-height: 2.8125rem;
       padding: 0 0.9375rem; }
@@ -5369,7 +5370,7 @@ meta.foundation-mq-topbar {
         color: #FFFFFF; }
       .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
         background-color: #555555;
-        color: #FFF;
+        color: #FFFFFF;
         background: #222222; }
       .top-bar-section .dropdown li label {
         background: #333333;
@@ -5403,9 +5404,9 @@ meta.foundation-mq-topbar {
   .no-js .top-bar-section ul li:hover > a {
     background-color: #555555;
     background: #00BF00;
-    color: #FFF; }
+    color: #FFFFFF; }
   .no-js .top-bar-section ul li:active > a {
-    background: #008CBA;
+    background: #00BF00;
     color: #FFFFFF; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     position: static !important;
@@ -5580,24 +5581,24 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008CBA;
+  color: #000000;
   line-height: inherit;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: black; }
   a img {
     border: none; }
 
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-size: 1rem;
-  font-weight: normal;
+  font-size: 0.9rem;
+  font-weight: lighter;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
-    font-size: 1.21875rem;
+    font-size: 1.11875rem;
     line-height: 1.6; }
   p aside {
     font-size: 0.875rem;
@@ -5606,16 +5607,16 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #222222;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: #000000;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
-  line-height: 1.4;
+  font-weight: 500;
+  line-height: 1.15;
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
   text-rendering: optimizeLegibility; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-    color: #6f6f6f;
+    color: #595959;
     font-size: 60%;
     line-height: 0; }
 
@@ -5629,18 +5630,18 @@ h3 {
   font-size: 1.375rem; }
 
 h4 {
-  font-size: 1.125rem; }
+  font-size: 0.8125rem; }
 
 h5 {
-  font-size: 1.125rem; }
+  font-size: 0.9375rem; }
 
 h6 {
-  font-size: 1rem; }
+  font-size: 0.9rem; }
 
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
-  font-weight: normal;
+  color: #8C8C8C;
+  font-weight: lighter;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
 
@@ -5649,7 +5650,7 @@ hr {
   border-width: 1px 0 0;
   clear: both;
   height: 0;
-  margin: 1.25rem 0 1.1875rem; }
+  margin: 3.125rem 0 3.0625rem; }
 
 /* Helpful Typography Defaults */
 em,
@@ -5667,8 +5668,8 @@ small {
   line-height: inherit; }
 
 code {
-  background-color: #f8f8f8;
-  border-color: #dfdfdf;
+  background-color: #e9e9e9;
+  border-color: #d2d2d2;
   border-style: solid;
   border-width: 1px;
   color: #333333;
@@ -5681,7 +5682,7 @@ ul,
 ol,
 dl {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.6;
   list-style-position: outside;
   margin-bottom: 1.25rem; }
@@ -5735,7 +5736,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #000000;
   cursor: help; }
 
 abbr {
@@ -5751,17 +5752,17 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #555555; }
+    color: #3b3b3b; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
     blockquote cite a:visited {
-      color: #555555; }
+      color: #3b3b3b; }
 
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f; }
+  color: #595959; }
 
 /* Microformats */
 .vcard {
@@ -5787,7 +5788,7 @@ blockquote p {
 
 @media only screen and (min-width: 40.0625em) {
   h1, h2, h3, h4, h5, h6 {
-    line-height: 1.4; }
+    line-height: 1.15; }
 
   h1 {
     font-size: 2.75rem; }
@@ -5799,13 +5800,13 @@ blockquote p {
     font-size: 1.6875rem; }
 
   h4 {
-    font-size: 1.4375rem; }
-
-  h5 {
     font-size: 1.125rem; }
 
+  h5 {
+    font-size: 0.9375rem; }
+
   h6 {
-    font-size: 1rem; } }
+    font-size: 0.9rem; } }
 .off-canvas-wrap {
   -webkit-backface-visibility: hidden;
   position: relative;
@@ -5842,7 +5843,7 @@ blockquote p {
     line-height: 2.8125rem;
     margin: 0; }
   .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
-    font-size: 1.125rem; }
+    font-size: 0.9375rem; }
 
 .left-small {
   height: 2.8125rem;
@@ -6677,20 +6678,17 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
-/* ------------------ Scaffolding styles ------------- */
-.site-container {
-  background-color: #FFF;
-  padding: 30px; }
-
+/*------------------------------------*\
+    #SCAFFOLDING STYLES
+\*------------------------------------*/
 body {
   overflow-x: hidden; }
 
-.site-cont {
+.site-container {
   background-color: white;
-  position: relative; }
-
-@madia screen {
-  .site-cont:after {
+  position: relative;
+  padding-bottom: 85px; }
+  .site-container:after {
     background-color: red;
     position: absolute;
     content: "";
@@ -6698,27 +6696,101 @@ body {
     right: -203px;
     width: 205px;
     height: 680px;
-    background-image: url("../images/icons/pattern.png"); } }
-@media screen and (max-width: 960px) {
-  body {
-    background-color: #FBFF8E; } }
-@media screen and (min-width: 961px) and (max-width: 1280px) {
-  body {
-    background-color: #D64445; }
+    background-image: url("../images/icons/pattern.png"); }
+  .site-container > .row {
+    margin: 0; }
 
-  .site-cont {
+/*--Fix bug from ZURB that not fully cover page by background*/
+.reveal-modal-bg {
+  position: fixed; }
+
+/*------------------------------------*\
+    #FONTS ANT TYPOGRAPHY
+\*------------------------------------*/
+/* ----------------  Headers ---------------- */
+h1, h2, h3, h4, h5, h6 {
+  color: inherit; }
+
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+  color: #000000; }
+  h1 > a:hover, h1 > a:focus, h2 > a:hover, h2 > a:focus, h3 > a:hover, h3 > a:focus, h4 > a:hover, h4 > a:focus, h5 > a:hover, h5 > a:focus, h6 > a:hover, h6 > a:focus {
+    color: #000000; }
+
+.x-large-header {
+  font-size: 72px;
+  font-weight: 600;
+  margin-bottom: 45px; }
+
+.section-title {
+  margin-bottom: 25px; }
+
+.page-title {
+  margin-bottom: 40px; }
+
+.subheader {
+  font-size: 18px; }
+
+/* ---------------- Paragraphs ----------------  */
+p {
+  color: #8C8C8C; }
+
+/* ---------------- Links ----------------  */
+.underline {
+  border-bottom: 1px solid #cbcbcb;
+  padding-bottom: 2px;
+  font-weight: lighter; }
+  .underline:hover {
+    color: #242424; }
+
+.go-further:after {
+  color: #8C8C8C;
+  content: "\203A";
+  font-size: 146%;
+  font-weight: 100;
+  margin-left: 13px;
+  vertical-align: -2px; }
+
+/* ---------------- Text ----------------  */
+.secondary-text {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  color: #898989; }
+
+/*------------------------------------*\
+    #TOP BAR
+\*------------------------------------*/
+.top-bar {
+  margin: 4.0625rem 0 5rem; }
+
+.top-bar .name .brand-logo {
+  padding-left: 0; }
+
+/*------------------------------------*\
+    #GRID
+\*------------------------------------*/
+/** Website dimensions declared in settings-override.scss
+ *
+ * small:   (0 - 640px)
+ * medium:  (641px - 960px)
+ * large:   (961px - 1280px)
+ * xlarge:  (1281px - 1920px)
+ * xxlarge: (1921px - 99999999px)
+ */
+@media only screen and (min-width: 60.0625em) and (max-width: 80em) {
+  .site-container {
     padding-left: 180px;
     padding-right: 80px;
     width: calc(780px + 180px); } }
-@media screen and (min-width: 1281px) and (max-width: 1980px) {
-  body {
-    background-color: #D64445; }
-
-  .site-cont {
+@media only screen and (min-width: 80.0625em) and (max-width: 120em) {
+  .site-container {
     width: auto;
     padding-left: 180px;
     padding-right: 80px;
     margin-right: 320px;
     min-width: calc(780px + 180px); } }
-.top-bar .name .brand-logo {
-  padding-left: 0; }
+.project-thumbnail-title {
+  line-height: 1;
+  margin: 15px 0 4px; }
+
+.project-thumbnail-type {
+  margin: 0; }

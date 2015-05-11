@@ -1,0 +1,74 @@
+/*------------------------------------*\
+    #FONTS ANT TYPOGRAPHY
+\*------------------------------------*/
+
+$font-size-secondary: 0.8rem;
+$line-height-secondary: 1.2;
+$anchor-border-bottom-color: $secondary-font-color;
+
+/* ----------------  Headers ---------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    & > a {
+        color: $base-font-color;
+
+        &:hover,
+        &:focus {
+            color: $base-font-color;
+        }
+    }
+}
+
+.x-large-header {
+    font-size: 72px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.section-title {margin-bottom: 25px;}
+.page-title {margin-bottom: 40px;}
+
+.subheader {
+    font-size: 18px;
+}
+
+/* ---------------- Paragraphs ----------------  */
+p {
+    color: $secondary-font-color;
+}
+
+
+/* ---------------- Links ----------------  */
+
+.underline {
+    border-bottom: 1px solid scale-color($anchor-border-bottom-color, $lightness: 55%);
+    padding-bottom: 2px;
+    font-weight: lighter;
+
+    &:hover {
+        color: scale-color($base-font-color, $lightness: 14%);
+    }
+}
+
+.go-further:after {
+    color: $secondary-font-color;
+    content: "\203A";
+    font-size: 146%;
+    font-weight: 100;
+    margin-left: 13px;
+    vertical-align: -2px;
+}
+
+
+/* ---------------- Text ----------------  */
+
+.secondary-text {
+    font-size: $font-size-secondary;
+    line-height: $line-height-secondary;
+    color: scale-color($secondary-color, $lightness: -25%);
+}

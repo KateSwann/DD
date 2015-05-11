@@ -1,6 +1,32 @@
-/* ------------------ Scaffolding styles ------------- */
+/*------------------------------------*\
+    #SCAFFOLDING STYLES
+\*------------------------------------*/
+
+body {
+    overflow-x: hidden;
+}
 
 .site-container {
-    background-color: #FFF;
-    padding: 30px;
+    background-color: white;
+    position: relative;
+    padding-bottom: 85px;
+
+    &:after {
+        background-color: red;
+        position: absolute;
+        content: "";
+        top: 20px;
+        right: -203px;
+        width: 205px;
+        height: 680px;
+        background-image: url("../images/icons/pattern.png");
+    }
+
+    & > .row {
+        margin: 0; // left aligned site
+    }
 }
+
+/*--Fix bug from ZURB that not fully cover page by background*/
+.reveal-modal-bg {position: fixed;}
+

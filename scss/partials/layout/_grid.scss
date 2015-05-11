@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    #GRID
+\*------------------------------------*/
+
+/** Website dimensions declared in settings-override.scss
+ *
+ * small:   (0 - 640px)
+ * medium:  (641px - 960px)
+ * large:   (961px - 1280px)
+ * xlarge:  (1281px - 1920px)
+ * xxlarge: (1921px - 99999999px)
+ */
+
+
+@media #{$large-only} {
+    .site-container {
+        padding-left: 180px;
+        padding-right: 80px;
+        width: calc(780px + 180px);
+    }
+}
+
+@media #{$xlarge-only} {
+    .site-container {
+        width: auto;
+        padding-left: 180px;
+        padding-right: 80px;
+        margin-right: 320px;
+        min-width: calc(780px + 180px);
+    }
+}

@@ -87,11 +87,12 @@ $row-width: rem-calc(9999);
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-// $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: "Roboto", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
+$font-weight-lighter: lighter;
 $font-weight-normal: normal;
 $font-weight-bold: bold;
 
@@ -115,6 +116,12 @@ $font-weight-bold: bold;
 // $jet         : #222222;
 // $black       : #000000;
 
+$white                  : #FFFFFF;
+$emphasis               : #00BF00;
+$secondary-color        : #B7B7B7;
+$base-font-color        : #000000;
+$secondary-font-color   : #8C8C8C;
+
 // We use these as default colors throughout
 // $primary-color: #008CBA;
 // $secondary-color: #e7e7e7;
@@ -124,9 +131,9 @@ $font-weight-bold: bold;
 // $info-color: #a0d3e8;
 
 // We use these to control various global styles
-// $body-bg: $white;
-// $body-font-color: $jet;
-// $body-font-family: $font-family-sans-serif;
+$body-bg: #d64445;
+$body-font-color: $base-font-color;
+$body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
@@ -156,11 +163,11 @@ $medium-breakpoint: em-calc(960);
 $large-breakpoint:  em-calc(1280);
 $xlarge-breakpoint: em-calc(1920);
 
-$small-range:   (0, $small-breakpoint);
-$medium-range:  ($small-breakpoint  + em-calc(1), $medium-breakpoint);
-$large-range:   ($medium-breakpoint + em-calc(1), $large-breakpoint);
-$xlarge-range:  ($large-breakpoint  + em-calc(1), $xlarge-breakpoint);
-$xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
+// $small-range:   (0, $small-breakpoint);
+// $medium-range:  ($small-breakpoint  + em-calc(1), $medium-breakpoint);
+// $large-range:   ($medium-breakpoint + em-calc(1), $large-breakpoint);
+// $xlarge-range:  ($large-breakpoint  + em-calc(1), $xlarge-breakpoint);
+// $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
 
 // $screen: "only screen";
 
@@ -211,21 +218,21 @@ $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
 
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
-// $header-font-weight: $font-weight-normal;
+$header-font-weight: 500;
 // $header-font-style: normal;
-// $header-font-color: $jet;
-// $header-line-height: 1.4;
+$header-font-color: $base-font-color;
+$header-line-height: 1.15;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-// $h1-font-size: rem-calc(44);
-// $h2-font-size: rem-calc(37);
-// $h3-font-size: rem-calc(27);
-// $h4-font-size: rem-calc(23);
-// $h5-font-size: rem-calc(18);
-// $h6-font-size: 1rem;
+$h1-font-size: rem-calc(44);
+$h2-font-size: rem-calc(37);
+$h3-font-size: rem-calc(27);
+$h4-font-size: rem-calc(18);
+$h5-font-size: rem-calc(15);
+$h6-font-size: 0.9rem;
 
 // We use these to control header size reduction on small screens
 // $h1-font-reduction: rem-calc(10);
@@ -237,8 +244,8 @@ $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
-// $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
-// $subheader-font-weight: $font-weight-normal;
+$subheader-font-color: $secondary-font-color;
+$subheader-font-weight: $font-weight-lighter;
 // $subheader-top-margin: .2rem;
 // $subheader-bottom-margin: .5rem;
 
@@ -248,8 +255,8 @@ $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
 
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
-// $paragraph-font-weight: $font-weight-normal;
-// $paragraph-font-size: 1rem;
+$paragraph-font-weight: $font-weight-lighter;
+$paragraph-font-size: 0.9rem;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
@@ -270,14 +277,14 @@ $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
+$anchor-font-color: $base-font-color;
 // $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
 // $hr-border-style: solid;
 // $hr-border-color: $gainsboro;
-// $hr-margin: rem-calc(20);
+$hr-margin: rem-calc(50);
 
 // We use these to style lists
 // $list-font-family: $paragraph-font-family;
@@ -393,7 +400,7 @@ $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
 
 // We use this to control the maximum number of block grid elements per row
 // $block-grid-elements: 12;
-// $block-grid-default-spacing: rem-calc(20);
+$block-grid-default-spacing: rem-calc(30);
 
 // $align-block-grid-to-grid: false;
 // @if $align-block-grid-to-grid {$block-grid-default-spacing: $column-gutter;}
@@ -1412,17 +1419,17 @@ $topbar-bg: none;
 // $topbar-title-font-size: rem-calc(17);
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: #B7B7B7;
-$topbar-link-color-hover: #FFF;
+$topbar-link-color: $secondary-color;
+$topbar-link-color-hover: $white;
 // $topbar-link-color-active: $white;
 // $topbar-link-color-active-hover: $white;
 $topbar-link-weight: $font-weight-bold;
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
-$topbar-link-bg-hover: #00BF00;
+$topbar-link-bg-hover: $emphasis;
 // $topbar-link-bg-color-hover: $charcoal;
-// $topbar-link-bg-active: $primary-color;
+$topbar-link-bg-active: $emphasis;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
@@ -1433,7 +1440,7 @@ $topbar-link-bg-hover: #00BF00;
 // $topbar-button-top: 7px;
 
 // Style the top bar dropdown elements
-$topbar-dropdown-bg: #FFF;
+$topbar-dropdown-bg: $white;
 // $topbar-dropdown-link-color: $white;
 // $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
 // $topbar-dropdown-link-bg: $oil;
