@@ -26,4 +26,25 @@
     line-height: 1;
     margin: 15px 0 4px;
 }
-.project-thumbnail-type {margin: 0;}
+.project-thumbnail-type {
+    margin: 0;
+}
+
+.full-width-border {
+    border-top: 1px solid scale-color($secondary-font-color, $lightness: 60%);
+    margin-top: 10px;
+}
+
+.image-product-detail {
+    margin-bottom: 25px;
+}
+
+.description-product-detail { 
+    @include clearfix();
+
+    margin-bottom: 50px;
+}
+
+.body-text {
+    color: $body-font-color;
+}

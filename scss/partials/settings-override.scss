@@ -235,12 +235,12 @@ $h5-font-size: rem-calc(15);
 $h6-font-size: 0.9rem;
 
 // We use these to control header size reduction on small screens
-// $h1-font-reduction: rem-calc(10);
-// $h2-font-reduction: rem-calc(10);
-// $h3-font-reduction: rem-calc(5);
-// $h4-font-reduction: rem-calc(5);
-// $h5-font-reduction: 0;
-// $h6-font-reduction: 0;
+$h1-font-reduction: rem-calc(5);
+$h2-font-reduction: rem-calc(5);
+$h3-font-reduction: rem-calc(2);
+$h4-font-reduction: rem-calc(2);
+$h5-font-reduction: 0;
+$h6-font-reduction: 0;
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
@@ -256,8 +256,8 @@ $subheader-font-weight: $font-weight-lighter;
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 $paragraph-font-weight: $font-weight-lighter;
-$paragraph-font-size: 0.9rem;
-// $paragraph-line-height: 1.6;
+$paragraph-font-size: 0.95rem;
+$paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;
@@ -284,7 +284,7 @@ $anchor-font-color: $base-font-color;
 // $hr-border-width: 1px;
 // $hr-border-style: solid;
 // $hr-border-color: $gainsboro;
-$hr-margin: rem-calc(50);
+$hr-margin: rem-calc(40);
 
 // We use these to style lists
 // $list-font-family: $paragraph-font-family;

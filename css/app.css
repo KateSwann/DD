@@ -5592,13 +5592,13 @@ a {
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: lighter;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
-    font-size: 1.11875rem;
+    font-size: 1.16875rem;
     line-height: 1.6; }
   p aside {
     font-size: 0.875rem;
@@ -5621,16 +5621,16 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 2.125rem; }
+  font-size: 2.4375rem; }
 
 h2 {
-  font-size: 1.6875rem; }
+  font-size: 2rem; }
 
 h3 {
-  font-size: 1.375rem; }
+  font-size: 1.5625rem; }
 
 h4 {
-  font-size: 0.8125rem; }
+  font-size: 1rem; }
 
 h5 {
   font-size: 0.9375rem; }
@@ -5650,7 +5650,7 @@ hr {
   border-width: 1px 0 0;
   clear: both;
   height: 0;
-  margin: 3.125rem 0 3.0625rem; }
+  margin: 2.5rem 0 2.4375rem; }
 
 /* Helpful Typography Defaults */
 em,
@@ -5682,7 +5682,7 @@ ul,
 ol,
 dl {
   font-family: inherit;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   line-height: 1.6;
   list-style-position: outside;
   margin-bottom: 1.25rem; }
@@ -6716,16 +6716,20 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   h1 > a:hover, h1 > a:focus, h2 > a:hover, h2 > a:focus, h3 > a:hover, h3 > a:focus, h4 > a:hover, h4 > a:focus, h5 > a:hover, h5 > a:focus, h6 > a:hover, h6 > a:focus {
     color: #000000; }
 
-.x-large-header {
+.xx-large-header {
   font-size: 72px;
   font-weight: 600;
   margin-bottom: 45px; }
+
+.x-large-header {
+  font-size: 70px;
+  font-weight: 600; }
 
 .section-title {
   margin-bottom: 25px; }
 
 .page-title {
-  margin-bottom: 40px; }
+  margin-bottom: 15px; }
 
 .subheader {
   font-size: 18px; }
@@ -6794,3 +6798,21 @@ p {
 
 .project-thumbnail-type {
   margin: 0; }
+
+.full-width-border {
+  border-top: 1px solid #d1d1d1;
+  margin-top: 10px; }
+
+.image-product-detail {
+  margin-bottom: 25px; }
+
+.description-product-detail {
+  margin-bottom: 50px; }
+  .description-product-detail:before, .description-product-detail:after {
+    content: " ";
+    display: table; }
+  .description-product-detail:after {
+    clear: both; }
+
+.body-text {
+  color: #000000; }
