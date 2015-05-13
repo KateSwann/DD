@@ -235,10 +235,10 @@ $h5-font-size: rem-calc(15);
 $h6-font-size: 0.9rem;
 
 // We use these to control header size reduction on small screens
-$h1-font-reduction: rem-calc(5);
-$h2-font-reduction: rem-calc(5);
-$h3-font-reduction: rem-calc(2);
-$h4-font-reduction: rem-calc(2);
+$h1-font-reduction: rem-calc(0);
+$h2-font-reduction: rem-calc(0);
+$h3-font-reduction: rem-calc(0);
+$h4-font-reduction: rem-calc(0);
 $h5-font-reduction: 0;
 $h6-font-reduction: 0;
 
@@ -1133,23 +1133,23 @@ $block-grid-default-spacing: rem-calc(30);
 // $include-html-reveal-classes: $include-html-classes;
 
 // We use these to control the style of the reveal overlay.
-// $reveal-overlay-bg: rgba($black, .45);
+$reveal-overlay-bg: rgba(#000000, .98);
 // $reveal-overlay-bg-old: $black;
 
 // We use these to control the style of the modal itself.
-// $reveal-modal-bg: $white;
+$reveal-modal-bg: transparent;
 // $reveal-position-top: rem-calc(100);
 // $reveal-default-width: 80%;
 // $reveal-max-width: $row-width;
 // $reveal-modal-padding: rem-calc(20);
-// $reveal-box-shadow: 0 0 10px rgba($black,.4);
+$reveal-box-shadow: none;
 
 // We use these to style the reveal close button
-// $reveal-close-font-size: rem-calc(40);
-// $reveal-close-top: rem-calc(10);
-// $reveal-close-side: rem-calc(22);
-// $reveal-close-color: $base;
-// $reveal-close-weight: $font-weight-bold;
+$reveal-close-font-size: rem-calc(80);
+$reveal-close-top: rem-calc(40);
+$reveal-close-side: 5%;
+$reveal-close-color: $white;
+$reveal-close-weight: 100;
 
 // We use this to set the default radius used throughout the core.
 // $reveal-radius: $global-radius;
@@ -1157,7 +1157,7 @@ $block-grid-default-spacing: rem-calc(30);
 
 // We use these to control the modal border
 // $reveal-border-style: solid;
-// $reveal-border-width: 1px;
+$reveal-border-width: 0;
 // $reveal-border-color: $steel;
 
 // $reveal-modal-class: "reveal-modal";
@@ -1169,22 +1169,22 @@ $block-grid-default-spacing: rem-calc(30);
 // $include-html-nav-classes: $include-html-classes;
 
 // We use this to control padding.
-// $side-nav-padding: rem-calc(14 0);
+$side-nav-padding: rem-calc(14 0);
 
 // We use these to control list styles.
 // $side-nav-list-type: none;
 // $side-nav-list-position: outside;
-// $side-nav-list-margin: rem-calc(0 0 7 0);
+$side-nav-list-margin: rem-calc(0 0 60 0);
 
 // We use these to control link styles.
 // $side-nav-link-color: $primary-color;
-// $side-nav-link-color-active: scale-color($side-nav-link-color, $lightness: 30%);
+$side-nav-link-color-active: #00C000;
 // $side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%);
 // $side-nav-link-bg-hover: hsla(0, 0, 0, .025);
 // $side-nav-link-margin: 0;
-// $side-nav-link-padding: rem-calc(7 14);
+$side-nav-link-padding: rem-calc(7 30);
 // $side-nav-font-size: rem-calc(14);
-// $side-nav-font-weight: $font-weight-normal;
+$side-nav-font-weight: 100;
 // $side-nav-font-weight-active: $side-nav-font-weight;
 // $side-nav-font-family: $body-font-family;
 // $side-nav-font-family-active: $side-nav-font-family;
