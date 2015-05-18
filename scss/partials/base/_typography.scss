@@ -6,7 +6,7 @@ $font-size-secondary: 0.8rem;
 $line-height-secondary: 1.2;
 $anchor-border-bottom-color: $secondary-font-color;
 
-/* ----------------  Headers ---------------- */
+/* ------------  Headers and titles ---------------- */
 
 h1, h2, h3, h4, h5, h6 {
     color: inherit;
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 .xx-large-header {
     font-size: 67px;
     font-weight: 600;
-    margin-bottom: 45px;
+    margin-bottom: ($base-rhythm*4.5);
 }
 
 @media #{$small-only} {.xx-large-header {font-size: 8.8vw;}}
@@ -39,11 +39,17 @@ h1, h2, h3, h4, h5, h6 {
 
 @media #{$small-only} {.x-large-header {font-size: 8vw;}}
 
-.section-title {margin-bottom: 25px;}
+.section-title {
+    margin-bottom: ($base-rhythm*2.5);
+    margin-top: 50px;
+}
 
-.page-title {margin-bottom: 15px;}
+.page-title {margin-bottom: ($base-rhythm*2);}
 
-.subheader {font-size: 18px;}
+.subheader {
+    font-size: 18px;
+    margin-bottom: ($base-rhythm*2.5);
+}
 
 /* ---------------- Paragraphs ----------------  */
 
@@ -80,4 +86,17 @@ p {
     font-size: $font-size-secondary;
     line-height: $line-height-secondary;
     color: scale-color($secondary-color, $lightness: -25%);
+}
+
+.body-color-text {
+    color: $body-font-color;
+}
+
+.medium-size-text {
+    font-size: 117%;
+    line-height: 1.4;
+}
+
+.pushes-down-indent {
+    margin-bottom: ($base-rhythm*3);
 }

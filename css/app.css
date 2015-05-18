@@ -5842,7 +5842,7 @@ hr {
   border-width: 1px 0 0;
   clear: both;
   height: 0;
-  margin: 2.5rem 0 2.4375rem; }
+  margin: 2.8125rem 0 2.75rem; }
 
 /* Helpful Typography Defaults */
 em,
@@ -6899,7 +6899,7 @@ body {
 /*------------------------------------*\
     #FONTS ANT TYPOGRAPHY
 \*------------------------------------*/
-/* ----------------  Headers ---------------- */
+/* ------------  Headers and titles ---------------- */
 h1, h2, h3, h4, h5, h6 {
   color: inherit; }
 
@@ -6924,13 +6924,15 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   .x-large-header {
     font-size: 8vw; } }
 .section-title {
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  margin-top: 50px; }
 
 .page-title {
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
 
 .subheader {
-  font-size: 18px; }
+  font-size: 18px;
+  margin-bottom: 25px; }
 
 /* ---------------- Paragraphs ----------------  */
 p {
@@ -6957,6 +6959,16 @@ p {
   font-size: 0.8rem;
   line-height: 1.2;
   color: #898989; }
+
+.body-color-text {
+  color: #000000; }
+
+.medium-size-text {
+  font-size: 117%;
+  line-height: 1.4; }
+
+.pushes-down-indent {
+  margin-bottom: 30px; }
 
 /*------------------------------------*\
     #BLOCK-GRID
@@ -7157,6 +7169,8 @@ p {
 
 .image-product-detail {
   margin-bottom: 25px; }
+  .image-product-detail img {
+    width: 100%; }
 
 .description-product-detail {
   margin-bottom: 50px; }
@@ -7166,5 +7180,8 @@ p {
   .description-product-detail:after {
     clear: both; }
 
-.body-text {
-  color: #000000; }
+section.project {
+  margin-bottom: 140px; }
+
+.projects-list {
+  margin-bottom: 35px; }

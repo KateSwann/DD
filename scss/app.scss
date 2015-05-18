@@ -33,20 +33,25 @@
 
 .full-width-border {
     border-top: 1px solid scale-color($secondary-font-color, $lightness: 60%);
-    margin-top: 10px;
+    margin-top: $base-rhythm;
 }
 
 .image-product-detail {
-    margin-bottom: 25px;
+    margin-bottom: ($base-rhythm*2.5);
+
+    img {width: 100%;}
 }
 
 .description-product-detail { 
     @include clearfix();
 
-    margin-bottom: 50px;
+    margin-bottom: ($base-rhythm*5);
 }
 
-.body-text {
-    color: $body-font-color;
+section.project {
+    margin-bottom: ($base-rhythm*14);
 }
 
+.projects-list {
+    margin-bottom: ($base-rhythm*3.5);
+}

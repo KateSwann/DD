@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="115px" height="42px" viewBox="0 0 115 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-303.000000, -260.000000)" fill="#000000">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(303.000000, 260.000000)">
+                <text id="Димка" sketch:type="MSTextLayer" font-family="PT Serif" font-size="14" font-weight="normal" line-spacing="14">
+                    <tspan x="10" y="18">Димка</tspan>
+                    <tspan x="10" y="32">Денежкин</tspan>
+                </text>
+                <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="0" y="0" width="53" height="3"></rect>
+                <rect id="Rectangle-1-Copy-2" sketch:type="MSShapeGroup" x="76" y="0" width="10" height="3"></rect>
+                <rect id="Rectangle-1-Copy" sketch:type="MSShapeGroup" x="0" y="39" width="86" height="3"></rect>
+                <rect id="Rectangle-4" sketch:type="MSShapeGroup" x="83" y="0" width="3" height="10"></rect>
+                <rect id="Rectangle-4-Copy-2" sketch:type="MSShapeGroup" x="0" y="0" width="3" height="42"></rect>
+                <rect id="Rectangle-4-Copy" sketch:type="MSShapeGroup" x="83" y="32" width="3" height="10"></rect>
+                <rect id="Rectangle-4-Copy-3" sketch:type="MSShapeGroup" x="93" y="14" width="3" height="15"></rect>
+                <path d="M83.0175781,9.99731445 L108.581055,21.5537109 L83.0175781,31.9970703 L85.878418,34.2141113 L115.021484,21.4785156 L85.878418,8.40307617 L83.0175781,9.99731445 Z" id="Path-1" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
