@@ -25,24 +25,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .xx-large-header {
-    font-size: 72px;
+    font-size: 67px;
     font-weight: 600;
     margin-bottom: 45px;
 }
 
+@media #{$small-only} {.xx-large-header {font-size: 8.8vw;}}
+
 .x-large-header {
-    font-size: 70px;
+    font-size: 61px;
     font-weight: 600;
 }
 
+@media #{$small-only} {.x-large-header {font-size: 8vw;}}
+
 .section-title {margin-bottom: 25px;}
+
 .page-title {margin-bottom: 15px;}
 
-.subheader {
-    font-size: 18px;
-}
+.subheader {font-size: 18px;}
 
 /* ---------------- Paragraphs ----------------  */
+
 p {
     color: $secondary-font-color;
 }

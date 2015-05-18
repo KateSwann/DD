@@ -11,21 +11,29 @@
  * xxlarge: (1921px - 99999999px)
  */
 
+$xmedium-up: "#{$screen} and (min-width:1600px)" !default;
+
+@media #{$small-up} {
+    .site-container {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
 
 @media #{$large-only} {
     .site-container {
-        padding-left: 180px;
-        padding-right: 80px;
-        width: calc(780px + 180px);
+        padding-left: 185px;
+        padding-right: 75px;
+        width: calc(780px + 165px);
     }
 }
 
 @media #{$xlarge-only} {
     .site-container {
         width: auto;
-        padding-left: 180px;
-        padding-right: 80px;
+        padding-left: 185px;
+        padding-right: 75px;
         margin-right: 320px;
-        min-width: calc(780px + 180px);
+        min-width: calc(780px + 185px);
     }
 }

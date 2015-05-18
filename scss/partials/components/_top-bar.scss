@@ -2,10 +2,115 @@
     #TOP BAR
 \*------------------------------------*/
 
+$menu-item-border-bottom: rem-calc(2);
+
+
 .top-bar {
     margin: rem-calc(65 0 80);
+
+    & .name .brand-logo {
+        padding-left: 0;
+    }
+
+    .title-area {
+        margin-right: rem-calc(20);
+    }
+
+    .reveal-menu-icon i:after {
+        box-shadow: 0 0 0 2px #000000, 0 19px 0 2px #000000, 0 37px 0 2px #000000;
+        content: "";
+        display: block;
+        height: 0;
+        margin-top: -19px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 45px;
+    }
 }
 
-.top-bar .name .brand-logo {
+.top-bar-section ul li {
+    margin: 0 ($topbar-height / 4);
+
+    &:hover:not(.has-form) > a,
+    &.active:not(.has-form) > a {
+        border-bottom: $menu-item-border-bottom solid $emphasis;
+    }
+
+    &:not(.has-form) a:not(.button),
+    &.active:not(.has-form) a:not(.button) {
+        line-height: ($topbar-height - $menu-item-border-bottom);
+    }
+} 
+
+.reveal-menu-icon {display: none;}
+
+@media #{$small-only} {
+    .top-bar {
+        .reveal-menu-icon {
+            cursor: pointer;
+            display: block;
+            height: 40px;
+            position: absolute;
+            right: 0;
+            top: 8%;
+            width: 50px;
+
+            i:after {
+                box-shadow: 0 0 0 2px #000000, 0 19px 0 2px #000000, 0 37px 0 2px #000000;
+                content: "";
+                display: block;
+                height: 0;
+                margin-top: -19px;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                width: 45px;
+            }
+        }
+    }
+}
+
+/*------------------------------------*\
+    #POPUP SITE NAV
+\*------------------------------------*/
+
+.reveal-modal {
     padding-left: 0;
+
+    .brand-logo {
+        display: inline-block;
+        margin: rem-calc(40 0 80 50);
+    }
+}
+
+.popup-site-nav {
+    @include side-nav(
+        $link-color: #FFFFFF,
+        $link-color-hover: #00C000,
+        $link-color-active: #28A828,
+        $font-size: rem-calc(53)
+    );
+
+    li {
+        a {
+            border-left: 5px solid transparent;
+            line-height: rem-calc(50);
+            transition: all 0.25s ease-in;
+        }
+
+        &:hover > a,
+        &.active > a {
+            color: #00C000;
+            border-left-color: #00C000;
+        }
+    }
+}
+
+
+@media #{$medium-up} {
+    .reveal-modal-bg,
+    .reveal-site-nav {
+        display: none !important;
+    }
 }

@@ -12,6 +12,7 @@
 @import "partials/base/typography.scss";
 
 // --------------- components -------------
+@import "partials/components/block-grid.scss";
 @import "partials/components/top-bar.scss";
 
 // --------------- layout -----------------
@@ -49,34 +50,3 @@
     color: $body-font-color;
 }
 
-.reveal-modal {
-    padding-left: 0;
-
-    .brand-logo {
-        display: inline-block;
-        margin: 40px 0 80px 40px;
-    }
-}
-
-.popup-site-nav {
-    @include side-nav(
-        $link-color: #FFFFFF,
-        $link-color-hover: #00C000,
-        $link-color-active: #28A828,
-        $font-size: rem-calc(53)
-    );
-
-    li {
-        a {
-            border-left: 5px solid transparent;
-            line-height: rem-calc(50);
-            transition: all 0.25s ease-in;
-        }
-
-        &:hover > a,
-        &.active > a {
-            color: #00C000;
-            border-left-color: #00C000;
-        }
-    }
-}

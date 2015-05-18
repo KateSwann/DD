@@ -1,0 +1,11 @@
+/*------------------------------------*\
+    #BLOCK-GRID
+\*------------------------------------*/
+
+@import "../layout/grid.scss";
+
+@media #{$xmedium-up} {
+    .xmedium-block-grid-3 {
+        @include block-grid(3);
+    }
+}
